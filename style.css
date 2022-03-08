@@ -3,7 +3,6 @@
 .tippitytop {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	display: inline-flex;
 }
 
 h1 {
@@ -16,6 +15,8 @@ h1 {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
+	width: 100%;
+	display: block;
 }
 
 ul {
@@ -46,5 +47,5 @@ li a:hover:not(.active) {
 li a.active {
   	color: white;
   	background-color: #3acb95;
+	border: none;
 }
-
